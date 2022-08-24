@@ -1,11 +1,11 @@
 ---
 title: "Kubernetes"
-date: 2022-08-24T12:34:30-04:00
+date: 2022-08-24T12:34:30-08:00
 categories:
   - blog
 tags:
   - Kubernetes
-  - update
+  - notes
 ---
 
 初识Kubernetes
