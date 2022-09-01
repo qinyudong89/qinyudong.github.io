@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes"
+title: "Kubernetes 笔记大纲"
 date: 2022-08-24T12:34:30-08:00
 categories:
   - blog
