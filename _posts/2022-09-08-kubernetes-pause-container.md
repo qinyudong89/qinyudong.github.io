@@ -2,10 +2,10 @@
 title: "Kubernetes pause 容器"
 date: 2022-09-08T11:20:30-04:00
 categories:
-- blog
-  tags:
-- kubernetes
-- pause
+  - blog 
+tags:
+  - kubernetes
+  - pause
 ---
 
 ### **pause 容器是什么？**
