@@ -2,10 +2,12 @@
 title: "Kubernetes的网络实现"
 date: 2022-09-09T11:20:30-04:00
 categories:
-- blog
-  tags:
-- kubernetes
-- pause
+  - blog
+tags:
+  - Container
+  - Pod
+  - Kubernetes
+  - Network
 ---
 
 - Container 与 Container 之间如何通信？
