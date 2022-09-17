@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes的网络实现"
+title: "Kubernetes Pod"
 date: 2022-09-14T23:20:30-04:00
 categories:
     - blog
