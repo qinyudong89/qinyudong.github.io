@@ -6,9 +6,12 @@ categories:
 tags:
     - Container
     - Kubernetes
+ 
 ---
 
-### **容器状态**
+本篇我们主要介绍在 Kubernetes 中容器的状态、容器重启策略及容器探针（健康检测）相关内容。
+
+# 一、容器状态
 
 一旦调度器将 Pod 分派给某个节点，kubelet 就通过 容器运行时 开始为 Pod 创建容器。 容器的状态有三种：Waiting（等待）、Running（运行中）和 Terminated（已终止）。
 
@@ -26,7 +29,7 @@ Running 状态表明容器正在执行状态并且没有问题发生。
 
 处于 Terminated 状态的容器已经开始执行并且或者正常结束或者因为某些原因失败。
 
-### **容器重启策略**
+# 容器重启策略
 
 Pod 的 spec 中包含一个 restartPolicy 字段，其应用于当某个容器异常退出时或者健康检查失败时，kubelet 将根据何用策略重启容器 ，默认值是 Always 。
 
@@ -36,7 +39,7 @@ OnFailure ：当容器终止运行且退出码不为 0 时，由 kubelet 自动�
 
 Never：不论容器运行状态如何，kubelet都不会重启该容器。 
 
-## **容器探针**
+# 容器探针
 
 [kubelet](https://kubernetes.io/zh-cn/docs/reference/command-line-tools-reference/kubelet/) 对容器执行的定期诊断。 要执行诊断，kubelet 既可以在容器内执行代码，也可以发出一个网络请求。
 
@@ -87,7 +90,7 @@ startupProbe：
 
 - 对于所包含的容器需要较长时间才能启动就绪的 Pod 而言，启动探针是有用的。 你不再需要配置一个较长的存活态探测时间间隔，只需要设置另一个独立的配置选定， 对启动期间的容器执行探测，从而允许使用远远超出存活态时间间隔所允许的时长。
 
-### **参考**
+# 参考
 
 [Pod Lifecycle](https://kubernetes.io/zh-cn/docs/concepts/workloads/pods/pod-lifecycle/)
 
