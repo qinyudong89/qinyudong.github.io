@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Pod"
+title: "Namespace and Cgroups"
 date: 2022-11-02T13:20:30-04:00
 categories:
     - blog
