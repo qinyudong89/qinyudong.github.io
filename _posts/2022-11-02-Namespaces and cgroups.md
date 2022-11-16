@@ -8,6 +8,9 @@ tags:
     - Namespace
     - Cgroups
 ---
+
+v2
+
 *这篇文章是我们关于容器技术系列的一部分：*
 
 *什么是命名空间和 cgroup，它们是如何工作的？（这个帖子）[构建更小的容器镜像](https://www.nginx.com/blog/building-smaller-container-images/)*
