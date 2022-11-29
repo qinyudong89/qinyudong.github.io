@@ -1,15 +1,11 @@
 ---
-title: "TCP congestion control"
+title: "TCP 拥塞控制"
 date: 2022-11-29T00:20:30-04:00
 categories:
   - blog
 tags:
   - TCP
 ---
-
-# TCP 拥塞控制
-
-
 
 ### 前言
 
