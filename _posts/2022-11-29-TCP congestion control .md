@@ -1,6 +1,6 @@
 ---
 title: "TCP congestion control"
-date: 2022-11-29T23:20:30-04:00
+date: 2022-11-29T00:20:30-04:00
 categories:
   - blog
 tags:
