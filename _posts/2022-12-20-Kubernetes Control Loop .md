@@ -1,5 +1,5 @@
 ---
-title: "TCP congestion control"
+title: "Kubernetes 控制器设计模式"
 date: 2022-12-20T00:20:30-04:00
 categories:
   - blog
@@ -10,9 +10,6 @@ tags:
   - Deployment
   - ReplicaSet
 ---
-
-# Kubernetes 控制器设计模式
-
 
 
 ### 编排系统如何快速调整出错的服务？
