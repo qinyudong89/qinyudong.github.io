@@ -12,7 +12,7 @@ tags:
 
 ### 调度流程
 
-在一个集群中，满足一个 Pod 调度请求的所有 Node 称之为 ***可调度* Node**。 调度器先在集群中通过一组 **Predicates 算法 **找到一个 Pod 的可调度 Node，然后根据一组 **Priorities 算法** 对这些可调度 Node 打分， 之后选出其中得分最高的 Node 来运行 Pod。 最后，调度器将这个调度决定告知 kube-apiserver，这个过程叫做 ***绑定（Binding）***。
+在一个集群中，满足一个 Pod 调度请求的所有 Node 称之为 **可调度 Node**。 调度器先在集群中通过一组 **Predicates 算法** 找到一个 Pod 的可调度 Node，然后根据一组 **Priorities 算法** 对这些可调度 Node 打分， 之后选出其中得分最高的 Node 来运行 Pod。 最后，调度器将这个调度决定告知 kube-apiserver，这个过程叫做 **绑定（Binding）**。
 
 
 
