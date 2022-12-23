@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes 的调度器设计"
+title: "Kubernetes 的调度机制"
 date: 2022-12-23T00:20:30-04:00
 categories:
   - blog
