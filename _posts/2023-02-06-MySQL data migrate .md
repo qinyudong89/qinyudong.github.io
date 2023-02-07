@@ -7,19 +7,9 @@ tags:
   - MySQL
 ---
 ### 前言
-
-### 库表结构迁移
-
-### 全量数据迁移
-
-### 增量数据迁移
-
-### 数据校验
-
-### 切换
-
+相信大部分有 3 - 5 年开发经验的同学都会经历过数据迁移，比如从机房到云数据库或单库到多库多表。那么今天我就来讲一下 MsSQL 数据库的迁移方案中的其中两种：双写方案、级联同步方案。
 
 
 ### 参考
-https://help.aliyun.com/document_detail/408660.html
-https://time.geekbang.org/column/article/145480
+
+[数据库的迁移该如何做](https://time.geekbang.org/column/article/155138)
