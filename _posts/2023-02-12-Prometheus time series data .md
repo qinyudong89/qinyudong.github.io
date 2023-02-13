@@ -59,4 +59,4 @@ Prometheus 之所以选择使用时序数据是因为它非常适合用于监控
 
 ### 参考
 
-[https://www.cnblogs.com/liugp/p/16459922.html#%E4%B8%80prometheus%E7%AE%80%E4%BB%8B](
+[https://www.cnblogs.com/liugp/p/16459922.html#%E4%B8%80prometheus%E7%AE%80%E4%BB%8B]
