@@ -1,5 +1,5 @@
 ---
-title: "Promethus 介绍"
+title: "Promethus 的数据模型"
 date: 2023-02-12T08:20:30-04:00
 categories:
   - blog
